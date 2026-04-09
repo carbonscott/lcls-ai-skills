@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "ask-slurm-s3df": {
+      "repo": "https://github.com/carbonscott/skill-ask-slurm-s3df.git",
+      "description": "S3DF Slurm cluster assistant (live commands, no data)",
+      "requires": [],
+      "has_setup": false
+    },
+    "docs-search": {
+      "repo": "https://github.com/carbonscott/skill-docs-search.git",
+      "description": "Documentation indexing and search tool (docs-index)",
+      "requires": ["uv"],
+      "has_setup": false
+    },
+    "ask-s3df": {
+      "repo": "https://github.com/carbonscott/skill-ask-s3df.git",
+      "description": "S3DF documentation assistant",
+      "requires": ["docs-search", "uv"],
+      "has_setup": true
+    },
+    "ask-olcf": {
+      "repo": "https://github.com/carbonscott/skill-ask-olcf.git",
+      "description": "OLCF documentation assistant",
+      "requires": ["docs-search", "uv"],
+      "has_setup": true
+    },
+    "ask-epics": {
+      "repo": "https://github.com/carbonscott/skill-ask-epics.git",
+      "description": "EPICS documentation assistant (26 repos)",
+      "requires": ["docs-search", "uv"],
+      "has_setup": true
+    },
+    "askcode": {
+      "repo": "https://github.com/carbonscott/skill-askcode.git",
+      "description": "Code indexing with tree-sitter-db",
+      "requires": ["tree-sitter-db"],
+      "has_setup": false
+    }
+  }
+}
