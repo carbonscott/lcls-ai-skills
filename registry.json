@@ -31,6 +31,18 @@
       "requires": ["docs-search", "uv"],
       "has_setup": true
     },
+    "ask-nersc": {
+      "repo": "https://github.com/carbonscott/skill-ask-nersc.git",
+      "description": "NERSC documentation assistant",
+      "requires": ["docs-search", "uv"],
+      "has_setup": true
+    },
+    "ask-tiled": {
+      "repo": "https://github.com/carbonscott/skill-ask-tiled.git",
+      "description": "Tiled data access service documentation assistant",
+      "requires": ["docs-search", "uv"],
+      "has_setup": true
+    },
     "askcode": {
       "repo": "https://github.com/carbonscott/skill-askcode.git",
       "description": "Code indexing with tree-sitter-db",

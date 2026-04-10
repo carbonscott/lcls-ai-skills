@@ -30,6 +30,8 @@ bash install.sh --target ~/.claude/skills --all
 | [ask-s3df](https://github.com/carbonscott/skill-ask-s3df) | S3DF documentation assistant | Clones sdf-docs repo |
 | [ask-olcf](https://github.com/carbonscott/skill-ask-olcf) | OLCF documentation assistant | Clones olcf-user-docs repo |
 | [ask-epics](https://github.com/carbonscott/skill-ask-epics) | EPICS documentation assistant | Clones 26 epics-base repos |
+| [ask-nersc](https://github.com/carbonscott/skill-ask-nersc) | NERSC documentation assistant | Clones nersc.gitlab.io repo |
+| [ask-tiled](https://github.com/carbonscott/skill-ask-tiled) | Tiled documentation assistant | Clones bluesky/tiled repo |
 | [askcode](https://github.com/carbonscott/skill-askcode) | Code indexing with tree-sitter | On-demand |
 
 ## Prerequisites
